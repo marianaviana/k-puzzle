@@ -304,7 +304,7 @@ frame.on("ready", () => {
             .alp(0)
             .animate({ alpha: 1 })
             .tap(() => {
-              zgo("https://mariviana.com.br/k/vai-ter/puzzle/", "_parent");
+              zgo("http://github.mariviana.com.br/k-puzzle/", "_parent");
             });
         });
       } else
