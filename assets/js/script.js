@@ -5,7 +5,7 @@ const frame = new Frame(
   null,
   darker,
   "puzzle.jpg",
-  "http://github.mariviana.com.br/k-puzzle/assets/images/"
+  "https://marianaviana.github.io/k-puzzle/assets/images/"
 );
 frame.on("ready", () => {
   zog("ready from ZIM Frame"); // logs in console (F12 - choose console)
@@ -304,7 +304,7 @@ frame.on("ready", () => {
             .alp(0)
             .animate({ alpha: 1 })
             .tap(() => {
-              zgo("http://github.mariviana.com.br/k-puzzle/", "_parent");
+              zgo("https://marianaviana.github.io/k-puzzle/", "_parent");
             });
         });
       } else
