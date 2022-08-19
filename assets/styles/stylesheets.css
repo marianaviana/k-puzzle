@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-color: none;
+}
+
+.container {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('../images/background.jpg');
+  background-size: cover;
+  height: 100%;
+  opacity: 0.2;
+  z-index: -1;
+  width: inherit;
+}
+
+.winning {
+  background-image: url('../images/winning-animation.gif');
+}
