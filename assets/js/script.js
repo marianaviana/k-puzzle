@@ -5,7 +5,7 @@ const frame = new Frame(
   null,
   darker,
   "puzzle.jpg",
-  "https://mariviana.com.br/k/vai-ter/puzzle/assets/images/"
+  "http://github.mariviana.com.br/k-puzzle/assets/images/"
 );
 frame.on("ready", () => {
   zog("ready from ZIM Frame"); // logs in console (F12 - choose console)
